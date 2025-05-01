@@ -66,6 +66,9 @@ class _HomePageState extends State<HomePage> {
                     ),
                   );
                 },
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Theme.of(context).primaryColor,
+                ),
                 child: const Text("View Bakery Items (List)"),
               ),
               ElevatedButton(
@@ -77,6 +80,9 @@ class _HomePageState extends State<HomePage> {
                     ),
                   );
                 },
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Theme.of(context).primaryColor,
+                ),
                 child: const Text("View Bakery Items (Grid)"),
               ),
             ],
