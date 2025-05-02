@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'home_page.dart';
+import 'landing_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -34,7 +34,7 @@ class MyApp extends StatelessWidget {
           ),
         ),
       ),
-      home: const HomePage(),
+      home: const LandingPage(),
     );
   }
 }
